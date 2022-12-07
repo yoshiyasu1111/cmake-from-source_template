@@ -32,3 +32,10 @@ $ cmake --build build
 $ ./build/hello 
 Hello World!
 ```
+
+## 生成物の削除
+
+```bash
+$ cmake --build build -t clean
+```
+
