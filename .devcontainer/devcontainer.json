@@ -1,0 +1,10 @@
+{
+    "name": "cmake",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "cmake",
+    "workspaceFolder": "/work",
+	"remoteUser": "gccuser",
+	"extensions": [
+		"ms-vscode.cpptools-extension-pack"
+	]
+}

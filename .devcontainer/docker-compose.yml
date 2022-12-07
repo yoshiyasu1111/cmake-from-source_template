@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  cmake:
+    image: cmake
+    container_name: cmake
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ${PWD}:/work
+    working_dir: /work
+    tty: true
+    command: /bin/bash
+  
